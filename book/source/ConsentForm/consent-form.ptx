@@ -9,5 +9,41 @@
     <image source="consentForm/page-1.png" ></image>
     <image source="consentForm/page-2.png" ></image>
     <image source="consentForm/page-3.png" ></image>
+    <exercises>
+        <exercise xml:id="Consent-Form">
+            <statement>
+                <p>
+                    Q1: Do you consent to taking part in this study as outlined by the above document?
+                </p>
+            </statement>
 
+
+            <choices>
+                <choice correct="yes">
+                    <statement>
+                        <p>
+                            Yes
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>
+                        </p>
+                    </feedback>
+                </choice>
+
+                <choice>
+                    <statement>
+                        <p>
+                            No
+                        </p>
+                    </statement>
+
+                    <feedback>
+                        <p>You must consent to participate</p>
+                    </feedback>
+                </choice>
+            </choices>
+        </exercise>
+    </exercises>
 </section>
