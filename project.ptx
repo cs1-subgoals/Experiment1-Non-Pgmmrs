@@ -9,25 +9,25 @@
     <!-- To build this target, run `pretext build web` -->
     <target name="runestone">
       <format>html</format>
-      <source>source/main.ptx</source>
+      <source>pretext/toctree.ptx</source>
       <publication>publication/runestone.ptx</publication>
       <output-dir>published/Subgoals</output-dir>
     </target>
     <target name="html">
       <format>html</format>
-      <source>source/main.ptx</source>
+      <source>pretext/toctree.ptx</source>
       <publication>publication/publication.ptx</publication>
       <output-dir>output/web</output-dir>
     </target>
     <target name="print" pdf-method="xelatex">
       <format>pdf</format>
-      <source>source/main.ptx</source>
+      <source>pretext/toctree.ptx</source>
       <publication>publication/publication.ptx</publication>
       <output-dir>output/print</output-dir>
     </target>
     <target name="print-latex">
       <format>latex</format>
-      <source>source/main.ptx</source>
+      <source>pretext/toctree.ptx</source>
       <publication>publication/publication.ptx</publication>
       <output-dir>output/print-latex</output-dir>
     </target>
@@ -36,7 +36,7 @@
       <!-- pretext build subset -x XMLID      -->
       <!-- or use <xml-root>XMLID</xml-root>  -->
       <format>html</format>
-      <source>source/main.ptx</source>
+      <source>pretext/toctree.ptx</source>
       <publication>publication/publication.ptx</publication>
       <output-dir>output/subset</output-dir>
       <stringparam key="debug.skip-knowls" value="yes"/>
