@@ -7,6 +7,12 @@
 <project>
   <targets>
     <!-- To build this target, run `pretext build web` -->
+    <target name="runestone">
+      <format>html</format>
+      <source>pretext/main.ptx</source>
+      <publication>publication/runestone.ptx</publication>
+      <output-dir>published/Subgoals</output-dir>
+    </target>
     <target name="web">
       <format>html</format>
       <source>source/main.ptx</source>
