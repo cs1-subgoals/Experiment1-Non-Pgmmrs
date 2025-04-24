@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <runestone-services version="7.5.16"/>
+  <library-metadata publisher="pretext">
+    <title>Non Programmer Experiment</title>
+    <subtitle/>
+    <document-id edition=""/>
+    <shelf/>
+    <blurb/>
+  </library-metadata>
+  <latex-macros>
+
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+</latex-macros>
+  <chapter>
+    <id>chapter-1</id>
+    <title>Consent Form and Survey</title>
+    <subchapter>
+      <id>consent-form</id>
+      <title>Consent Form</title>
+      <question>
+        <label>Exercise 1.1.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone">
+              <ul data-component="multiplechoice" id="__Consent-Form" data-multipleanswers="false">
+                <div class="para" id="p-2">Q1: Do you consent to participating in the research as described to you in the consent document?</div>
+                <li data-component="answer" id="__Consent-Form_opt_a" data-correct="">
+                  <div class="para" id="p-3">Yes</div>
+                </li>
+                <li data-component="feedback" id="__Consent-Form_opt_a">
+                  <div class="para" id="p-4"/>
+                </li>
+                <li data-component="answer" id="__Consent-Form_opt_b">
+                  <div class="para" id="p-5">No</div>
+                </li>
+                <li data-component="feedback" id="__Consent-Form_opt_b">
+                  <div class="para" id="p-6">You must consent to participate</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+    </subchapter>
+    <subchapter>
+      <id>survey</id>
+      <title>Survey</title>
+      <question>
+        <label>Exercise 1.2.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone">
+              <ul data-component="multiplechoice" id="__survey-Q1" data-multipleanswers="true">
+                <div class="para" id="p-8">Q1: Please indicate which, if any, prior computer programming experiences that you've had during grades K–5 (age 5 to 11) — check ALL that apply. (The checkme results can be ignored!)</div>
+                <li data-component="answer" id="__survey-Q1_opt_a" data-correct="">
+                  <div class="para" id="p-9">Less than a day (museum type)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q1_opt_a"/>
+                <li data-component="answer" id="__survey-Q1_opt_b" data-correct="">
+                  <div class="para" id="p-10">More than a day but less than 2 months outside of school (camps)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q1_opt_b"/>
+                <li data-component="answer" id="__survey-Q1_opt_c" data-correct="">
+                  <div class="para" id="p-11">More than a day but less than 2 months inside of school (programming unit)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q1_opt_c"/>
+                <li data-component="answer" id="__survey-Q1_opt_d" data-correct="">
+                  <div class="para" id="p-12">More than a day but less than 2 months outside of school (learning on your own)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q1_opt_d"/>
+                <li data-component="answer" id="__survey-Q1_opt_e" data-correct="">
+                  <div class="para" id="p-13">More than 2 months outside of school (after school program)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q1_opt_e"/>
+                <li data-component="answer" id="__survey-Q1_opt_f" data-correct="">
+                  <div class="para" id="p-14">More than 2 months inside of school (computing course)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q1_opt_f"/>
+                <li data-component="answer" id="__survey-Q1_opt_g" data-correct="">
+                  <div class="para" id="p-15">More than 2 months outside of school (learning on your own)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q1_opt_g"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Exercise 1.2.2 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone">
+              <ul data-component="multiplechoice" id="__survey-Q2" data-multipleanswers="true">
+                <div class="para" id="p-16">Q2: Please indicate which, if any, prior computer programming experiences that you’ve had during grades 6–8 (age 12 to 14) — check ALL that apply.</div>
+                <li data-component="answer" id="__survey-Q2_opt_a" data-correct="">
+                  <div class="para" id="p-17">Less than a day (museum type)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q2_opt_a"/>
+                <li data-component="answer" id="__survey-Q2_opt_b" data-correct="">
+                  <div class="para" id="p-18">More than a day but less than 2 months outside of school (camps)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q2_opt_b"/>
+                <li data-component="answer" id="__survey-Q2_opt_c" data-correct="">
+                  <div class="para" id="p-19">More than a day but less than 2 months inside of school (programming unit)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q2_opt_c"/>
+                <li data-component="answer" id="__survey-Q2_opt_d" data-correct="">
+                  <div class="para" id="p-20">More than a day but less than 2 months outside of school (learning on your own)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q2_opt_d"/>
+                <li data-component="answer" id="__survey-Q2_opt_e" data-correct="">
+                  <div class="para" id="p-21">More than 2 months outside of school (after school program)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q2_opt_e"/>
+                <li data-component="answer" id="__survey-Q2_opt_f" data-correct="">
+                  <div class="para" id="p-22">More than 2 months inside of school (computing course)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q2_opt_f"/>
+                <li data-component="answer" id="__survey-Q2_opt_g" data-correct="">
+                  <div class="para" id="p-23">More than 2 months outside of school (learning on your own)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q2_opt_g"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Exercise 1.2.3 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone">
+              <ul data-component="multiplechoice" id="__survey-Q3" data-multipleanswers="true">
+                <div class="para" id="p-24">Q3: Please indicate which, if any, prior computer programming experiences that you’ve had during grades 9–12 (age 14 to 18) — check ALL that apply.</div>
+                <li data-component="answer" id="__survey-Q3_opt_a" data-correct="">
+                  <div class="para" id="p-25">Less than a day (museum type)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q3_opt_a"/>
+                <li data-component="answer" id="__survey-Q3_opt_b" data-correct="">
+                  <div class="para" id="p-26">More than a day but less than 2 months outside of school (camps)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q3_opt_b"/>
+                <li data-component="answer" id="__survey-Q3_opt_c" data-correct="">
+                  <div class="para" id="p-27">More than a day but less than 2 months inside of school (programming unit)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q3_opt_c"/>
+                <li data-component="answer" id="__survey-Q3_opt_d" data-correct="">
+                  <div class="para" id="p-28">More than a day but less than 2 months outside of school (learning on your own)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q3_opt_d"/>
+                <li data-component="answer" id="__survey-Q3_opt_e" data-correct="">
+                  <div class="para" id="p-29">More than 2 months outside of school (after school program)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q3_opt_e"/>
+                <li data-component="answer" id="__survey-Q3_opt_f" data-correct="">
+                  <div class="para" id="p-30">More than 2 months inside of school (computing course)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q3_opt_f"/>
+                <li data-component="answer" id="__survey-Q3_opt_g" data-correct="">
+                  <div class="para" id="p-31">More than 2 months outside of school (learning on your own)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q3_opt_g"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Exercise 1.2.4 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone">
+              <ul data-component="multiplechoice" id="__survey-Q4" data-multipleanswers="true">
+                <div class="para" id="p-32">Q4: Please indicate which, if any, courses you have taken here at UB that involved programming — check ALL that apply.</div>
+                <li data-component="answer" id="__survey-Q4_opt_a" data-correct="">
+                  <div class="para" id="p-33">CSE 111</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q4_opt_a"/>
+                <li data-component="answer" id="__survey-Q4_opt_b" data-correct="">
+                  <div class="para" id="p-34">CSE 113</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q4_opt_b"/>
+                <li data-component="answer" id="__survey-Q4_opt_c" data-correct="">
+                  <div class="para" id="p-35">CSE 115</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q4_opt_c"/>
+                <li data-component="answer" id="__survey-Q4_opt_d" data-correct="">
+                  <div class="para" id="p-36">CSE 116</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q4_opt_d"/>
+                <li data-component="answer" id="__survey-Q4_opt_e" data-correct="">
+                  <div class="para" id="p-37">CSE 2xx course (any)</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q4_opt_e"/>
+                <li data-component="answer" id="__survey-Q4_opt_f" data-correct="">
+                  <div class="para" id="p-38">None of the above</div>
+                </li>
+                <li data-component="feedback" id="__survey-Q4_opt_f"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Exercise 1.2.5 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone">
+              <ul data-component="multiplechoice" id="__survey-Q5" data-multipleanswers="true"><div class="para" id="p-39">Q5: Based on your previous CS experience, how much do you agree or disagree with the following statement? [ONLY USED FOR STUDENTS IN CSE 115 &amp; 116]</div> <div class="para" id="p-40"><em class="emphasis">I am better at computer science than most of the other students in my course.</em></div><li data-component="answer" id="__survey-Q5_opt_a" data-correct=""><div class="para" id="p-41">1 - Completely Disagree</div></li><li data-component="feedback" id="__survey-Q5_opt_a"/><li data-component="answer" id="__survey-Q5_opt_b" data-correct=""><div class="para" id="p-42">2 - Mostly Disagree</div></li><li data-component="feedback" id="__survey-Q5_opt_b"/><li data-component="answer" id="__survey-Q5_opt_c" data-correct=""><div class="para" id="p-43">3 - Slightly Disagree</div></li><li data-component="feedback" id="__survey-Q5_opt_c"/><li data-component="answer" id="__survey-Q5_opt_d" data-correct=""><div class="para" id="p-44">4 - Slightly Agree</div></li><li data-component="feedback" id="__survey-Q5_opt_d"/><li data-component="answer" id="__survey-Q5_opt_e" data-correct=""><div class="para" id="p-45">5 - Mostly Agree</div></li><li data-component="feedback" id="__survey-Q5_opt_e"/><li data-component="answer" id="__survey-Q5_opt_f" data-correct=""><div class="para" id="p-46">6 - Completely Agree</div></li><li data-component="feedback" id="__survey-Q5_opt_f"/><li data-component="answer" id="__survey-Q5_opt_g" data-correct=""><div class="para" id="p-47">Not a student of CSE 115 or 116.</div></li><li data-component="feedback" id="__survey-Q5_opt_g"/></ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Exercise 1.2.6 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone">
+              <ul data-component="multiplechoice" id="__survey-Q6" data-multipleanswers="true"><div class="para" id="p-48">Q6: Based on your previous CS experience, how much do you agree or disagree with the following statement? [ONLY USED FOR STUDENTS IN CSE 115 &amp; 116]</div> <div class="para" id="p-49"><em class="emphasis">I am very good at computer science.</em></div><li data-component="answer" id="__survey-Q6_opt_a" data-correct=""><div class="para" id="p-50">1 - Completely Disagree</div></li><li data-component="feedback" id="__survey-Q6_opt_a"/><li data-component="answer" id="__survey-Q6_opt_b" data-correct=""><div class="para" id="p-51">2 - Mostly Disagree</div></li><li data-component="feedback" id="__survey-Q6_opt_b"/><li data-component="answer" id="__survey-Q6_opt_c" data-correct=""><div class="para" id="p-52">3 - Slightly Disagree</div></li><li data-component="feedback" id="__survey-Q6_opt_c"/><li data-component="answer" id="__survey-Q6_opt_d" data-correct=""><div class="para" id="p-53">4 - Slightly Agree</div></li><li data-component="feedback" id="__survey-Q6_opt_d"/><li data-component="answer" id="__survey-Q6_opt_e" data-correct=""><div class="para" id="p-54">5 - Mostly Agree</div></li><li data-component="feedback" id="__survey-Q6_opt_e"/><li data-component="answer" id="__survey-Q6_opt_f" data-correct=""><div class="para" id="p-55">6 - Completely Agree</div></li><li data-component="feedback" id="__survey-Q6_opt_f"/><li data-component="answer" id="__survey-Q6_opt_g" data-correct=""><div class="para" id="p-56">Not a student of CSE 115 or 116.</div></li><li data-component="feedback" id="__survey-Q6_opt_g"/></ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Exercise 1.2.7 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone">
+              <ul data-component="multiplechoice" id="__survey-Q7" data-multipleanswers="true"><div class="para" id="p-57">Q7: Based on your previous CS experience, how much do you agree or disagree with the following statement? [ONLY USED FOR STUDENTS IN CSE 115 &amp; 116]</div> <div class="para" id="p-58"><em class="emphasis">I can figure out how to solve the most difficult problems in my computer science class if I try.</em></div><li data-component="answer" id="__survey-Q7_opt_a" data-correct=""><div class="para" id="p-59">1 - Completely Disagree</div></li><li data-component="feedback" id="__survey-Q7_opt_a"/><li data-component="answer" id="__survey-Q7_opt_b" data-correct=""><div class="para" id="p-60">2 - Mostly Disagree</div></li><li data-component="feedback" id="__survey-Q7_opt_b"/><li data-component="answer" id="__survey-Q7_opt_c" data-correct=""><div class="para" id="p-61">3 - Slightly Disagree</div></li><li data-component="feedback" id="__survey-Q7_opt_c"/><li data-component="answer" id="__survey-Q7_opt_d" data-correct=""><div class="para" id="p-62">4 - Slightly Agree</div></li><li data-component="feedback" id="__survey-Q7_opt_d"/><li data-component="answer" id="__survey-Q7_opt_e" data-correct=""><div class="para" id="p-63">5 - Mostly Agree</div></li><li data-component="feedback" id="__survey-Q7_opt_e"/><li data-component="answer" id="__survey-Q7_opt_f" data-correct=""><div class="para" id="p-64">6 - Completely Agree</div></li><li data-component="feedback" id="__survey-Q7_opt_f"/><li data-component="answer" id="__survey-Q7_opt_g" data-correct=""><div class="para" id="p-65">Not a student of CSE 115 or 116.</div></li><li data-component="feedback" id="__survey-Q7_opt_g"/></ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+    </subchapter>
+  </chapter>
+</manifest>
