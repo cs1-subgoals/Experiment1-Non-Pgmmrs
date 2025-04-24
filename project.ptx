@@ -11,7 +11,7 @@
       <format>html</format>
       <source>pretext/toctree.ptx</source>
       <publication>publication/runestone.ptx</publication>
-      <output-dir>published/Subgoals</output-dir>
+      <output-dir>published/Experiment1-Non-Pgmmrs</output-dir>
     </target>
     <target name="html">
       <format>html</format>
