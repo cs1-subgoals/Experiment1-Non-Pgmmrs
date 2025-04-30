@@ -44,7 +44,8 @@ window.MathJax = {
     )}
   },
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="_static/lunr-pretext-search-index.js"></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/components/prism-core.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/autoloader/prism-autoloader.min.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="_static/lunr-pretext-search-index.js"></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
 <script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -131,8 +132,8 @@ eBookConfig.new_server_prefix = "/ns";
 }
 </style>
 <!--*** Runestone Services ***-->
-<script type="text/javascript" src="_static/prefix-runtime.a0c870bab402ccbf.bundle.js"></script><script type="text/javascript" src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script type="text/javascript" src="_static/prefix-runestone.f6bda0c0ccce4835.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.97de40e034b535c5.css">
+<script type="text/javascript" src="_static/prefix-runtime.c7804631fa963734.bundle.js"></script><script type="text/javascript" src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script type="text/javascript" src="_static/prefix-runestone.f7a03b209751032d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.541c9106f2c605b9.css">
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
@@ -263,7 +264,7 @@ eBookConfig.new_server_prefix = "/ns";
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="consent-form.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-1.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon">&gt;</span></span></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="consent-form.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-1.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="chapter-2.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
 \newcommand{\lt}{&lt;}
@@ -273,7 +274,8 @@ eBookConfig.new_server_prefix = "/ns";
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar"><nav id="ptx-toc" class="depth2"><ul class="structural"><li>
+<div id="ptx-sidebar"><nav id="ptx-toc" class="depth2"><ul class="structural">
+<li>
 <div class="toc-item"><a href="chapter-1.html" class="internal"><span class="codenumber">1</span> <span class="title">Consent Form and Survey</span></a></div>
 <ul class="structural">
 <li>
@@ -285,135 +287,179 @@ eBookConfig.new_server_prefix = "/ns";
 <ul class="structural"><li><div class="toc-item"><a href="survey.html#exercises-2" class="internal"><span class="codenumber">1.2</span> <span class="title">Exercises</span></a></div></li></ul>
 </li>
 </ul>
-</li></ul></nav></div>
+</li>
+<li>
+<div class="toc-item"><a href="chapter-2.html" class="internal"><span class="codenumber">2</span> <span class="title">Write Conditional</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="write_conditional.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Write Conditional</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="write_conditional.html#subsection-1" class="internal"><span class="codenumber">2.1.1</span> <span class="title"></span></a></div></li>
+<li><div class="toc-item"><a href="write_conditional.html#subsec-write-conSG1" class="internal"><span class="codenumber">2.1.2</span> <span class="title">1. Define how many mutually exclusive paths are needed</span></a></div></li>
+<li><div class="toc-item"><a href="write_conditional.html#subsec-write-conSG2" class="internal"><span class="codenumber">2.1.3</span> <span class="title">2. Order paths from most restrictive to least restrictive</span></a></div></li>
+<li><div class="toc-item"><a href="write_conditional.html#subsec-write-conSG3" class="internal"><span class="codenumber">2.1.4</span> <span class="title">3. Write conditional statement with Boolean expression</span></a></div></li>
+<li><div class="toc-item"><a href="write_conditional.html#subsec-write-conSG4" class="internal"><span class="codenumber">2.1.5</span> <span class="title">4. Follow with true path including action in indentation</span></a></div></li>
+<li><div class="toc-item"><a href="write_conditional.html#subsec-write-conSG5" class="internal"><span class="codenumber">2.1.6</span> <span class="title">5. Repeat 3 and 4 until all paths are included</span></a></div></li>
+<li><div class="toc-item"><a href="write_conditional.html#subsec-write-conSG6" class="internal"><span class="codenumber">2.1.7</span> <span class="title">6. (Optional) Follow with else path including action in indentation</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="conditional-wc-p1.html" class="internal"><span class="codenumber">2.2</span> <span class="title">WriteConditional-Exercise</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="conditional-wc-p1.html#subsection-8" class="internal"><span class="codenumber">2.2.1</span> <span class="title">WrCond-Parsons-Problem</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="conditional-wc-p1.html#exercises-3" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+</li></ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chapter-3.html" class="internal"><span class="codenumber">3</span> <span class="title">Write Loop</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="write_loops.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Write Loops</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="write_loops.html#subsection-9" class="internal"><span class="codenumber">3.1.1</span> <span class="title"></span></a></div></li>
+<li><div class="toc-item"><a href="write_loops.html#subsec-wri-loopSG1" class="internal"><span class="codenumber">3.1.2</span> <span class="title">1. Determine purpose of loop to pick loop structure (for, while)</span></a></div></li>
+<li><div class="toc-item"><a href="write_loops.html#subsec-wri-loopSG2" class="internal"><span class="codenumber">3.1.3</span> <span class="title">2. Define variables before loop that have dependencies within the loop</span></a></div></li>
+<li><div class="toc-item"><a href="write_loops.html#subsec-wri-loopSG3" class="internal"><span class="codenumber">3.1.4</span> <span class="title">3. Based on loop structure</span></a></div></li>
+<li><div class="toc-item"><a href="write_loops.html#subsec-wri-loopSG4" class="internal"><span class="codenumber">3.1.5</span> <span class="title">4. Write loop body</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="loop-wrl-p1.html" class="internal"><span class="codenumber">3.2</span> <span class="title">WriteLoops-Exercise</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="loop-wrl-p1.html#exercises-4" class="internal"><span class="codenumber">3.2</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="survey"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">1.2</span> <span class="title">Survey</span>
 </h2>
-<div class="para" id="p-7">Please answer the following survey questions.</div>
+<div class="para" id="p-12">Please answer the following survey questions.</div>
 <section class="exercises" id="exercises-2"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber"></span> <span class="title">Exercises</span>
 </h3>
 <article class="exercise exercise-like" id="survey-Q1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
 <div class="ptx-runestone-container"><div class="runestone"><ul data-component="multiplechoice" id="__survey-Q1" data-multipleanswers="true">
-<div class="para" id="p-8">Q1: Please indicate which, if any, prior computer programming experiences that you've had during grades K–5 (age 5 to 11) — check ALL that apply. (The checkme results can be ignored!)</div>
-<li data-component="answer" id="__survey-Q1_opt_a" data-correct=""><div class="para" id="p-9">Less than a day (museum type)</div></li>
+<div class="para" id="p-13">Q1: Please indicate which, if any, prior computer programming experiences that you've had during grades K–5 (age 5 to 11) — check ALL that apply. (The checkme results can be ignored!)</div>
+<li data-component="answer" id="__survey-Q1_opt_a" data-correct=""><div class="para" id="p-14">Less than a day (museum type)</div></li>
 <li data-component="feedback" id="__survey-Q1_opt_a">
-<li data-component="answer" id="__survey-Q1_opt_b" data-correct=""><div class="para" id="p-10">More than a day but less than 2 months outside of school (camps)</div></li>
+<li data-component="answer" id="__survey-Q1_opt_b" data-correct=""><div class="para" id="p-15">More than a day but less than 2 months outside of school (camps)</div></li>
 <li data-component="feedback" id="__survey-Q1_opt_b">
-<li data-component="answer" id="__survey-Q1_opt_c" data-correct=""><div class="para" id="p-11">More than a day but less than 2 months inside of school (programming unit)</div></li>
+<li data-component="answer" id="__survey-Q1_opt_c" data-correct=""><div class="para" id="p-16">More than a day but less than 2 months inside of school (programming unit)</div></li>
 <li data-component="feedback" id="__survey-Q1_opt_c">
-<li data-component="answer" id="__survey-Q1_opt_d" data-correct=""><div class="para" id="p-12">More than a day but less than 2 months outside of school (learning on your own)</div></li>
+<li data-component="answer" id="__survey-Q1_opt_d" data-correct=""><div class="para" id="p-17">More than a day but less than 2 months outside of school (learning on your own)</div></li>
 <li data-component="feedback" id="__survey-Q1_opt_d">
-<li data-component="answer" id="__survey-Q1_opt_e" data-correct=""><div class="para" id="p-13">More than 2 months outside of school (after school program)</div></li>
+<li data-component="answer" id="__survey-Q1_opt_e" data-correct=""><div class="para" id="p-18">More than 2 months outside of school (after school program)</div></li>
 <li data-component="feedback" id="__survey-Q1_opt_e">
-<li data-component="answer" id="__survey-Q1_opt_f" data-correct=""><div class="para" id="p-14">More than 2 months inside of school (computing course)</div></li>
+<li data-component="answer" id="__survey-Q1_opt_f" data-correct=""><div class="para" id="p-19">More than 2 months inside of school (computing course)</div></li>
 <li data-component="feedback" id="__survey-Q1_opt_f">
-<li data-component="answer" id="__survey-Q1_opt_g" data-correct=""><div class="para" id="p-15">More than 2 months outside of school (learning on your own)</div></li>
+<li data-component="answer" id="__survey-Q1_opt_g" data-correct=""><div class="para" id="p-20">More than 2 months outside of school (learning on your own)</div></li>
 <li data-component="feedback" id="__survey-Q1_opt_g">
 </ul></div></div></article><article class="exercise exercise-like" id="survey-Q2"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
 <div class="ptx-runestone-container"><div class="runestone"><ul data-component="multiplechoice" id="__survey-Q2" data-multipleanswers="true">
-<div class="para" id="p-16">Q2: Please indicate which, if any, prior computer programming experiences that you’ve had during grades 6–8 (age 12 to 14) — check ALL that apply.</div>
-<li data-component="answer" id="__survey-Q2_opt_a" data-correct=""><div class="para" id="p-17">Less than a day (museum type)</div></li>
+<div class="para" id="p-21">Q2: Please indicate which, if any, prior computer programming experiences that you’ve had during grades 6–8 (age 12 to 14) — check ALL that apply.</div>
+<li data-component="answer" id="__survey-Q2_opt_a" data-correct=""><div class="para" id="p-22">Less than a day (museum type)</div></li>
 <li data-component="feedback" id="__survey-Q2_opt_a">
-<li data-component="answer" id="__survey-Q2_opt_b" data-correct=""><div class="para" id="p-18">More than a day but less than 2 months outside of school (camps)</div></li>
+<li data-component="answer" id="__survey-Q2_opt_b" data-correct=""><div class="para" id="p-23">More than a day but less than 2 months outside of school (camps)</div></li>
 <li data-component="feedback" id="__survey-Q2_opt_b">
-<li data-component="answer" id="__survey-Q2_opt_c" data-correct=""><div class="para" id="p-19">More than a day but less than 2 months inside of school (programming unit)</div></li>
+<li data-component="answer" id="__survey-Q2_opt_c" data-correct=""><div class="para" id="p-24">More than a day but less than 2 months inside of school (programming unit)</div></li>
 <li data-component="feedback" id="__survey-Q2_opt_c">
-<li data-component="answer" id="__survey-Q2_opt_d" data-correct=""><div class="para" id="p-20">More than a day but less than 2 months outside of school (learning on your own)</div></li>
+<li data-component="answer" id="__survey-Q2_opt_d" data-correct=""><div class="para" id="p-25">More than a day but less than 2 months outside of school (learning on your own)</div></li>
 <li data-component="feedback" id="__survey-Q2_opt_d">
-<li data-component="answer" id="__survey-Q2_opt_e" data-correct=""><div class="para" id="p-21">More than 2 months outside of school (after school program)</div></li>
+<li data-component="answer" id="__survey-Q2_opt_e" data-correct=""><div class="para" id="p-26">More than 2 months outside of school (after school program)</div></li>
 <li data-component="feedback" id="__survey-Q2_opt_e">
-<li data-component="answer" id="__survey-Q2_opt_f" data-correct=""><div class="para" id="p-22">More than 2 months inside of school (computing course)</div></li>
+<li data-component="answer" id="__survey-Q2_opt_f" data-correct=""><div class="para" id="p-27">More than 2 months inside of school (computing course)</div></li>
 <li data-component="feedback" id="__survey-Q2_opt_f">
-<li data-component="answer" id="__survey-Q2_opt_g" data-correct=""><div class="para" id="p-23">More than 2 months outside of school (learning on your own)</div></li>
+<li data-component="answer" id="__survey-Q2_opt_g" data-correct=""><div class="para" id="p-28">More than 2 months outside of school (learning on your own)</div></li>
 <li data-component="feedback" id="__survey-Q2_opt_g">
 </ul></div></div></article><article class="exercise exercise-like" id="survey-Q3"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
 <div class="ptx-runestone-container"><div class="runestone"><ul data-component="multiplechoice" id="__survey-Q3" data-multipleanswers="true">
-<div class="para" id="p-24">Q3: Please indicate which, if any, prior computer programming experiences that you’ve had during grades 9–12 (age 14 to 18) — check ALL that apply.</div>
-<li data-component="answer" id="__survey-Q3_opt_a" data-correct=""><div class="para" id="p-25">Less than a day (museum type)</div></li>
+<div class="para" id="p-29">Q3: Please indicate which, if any, prior computer programming experiences that you’ve had during grades 9–12 (age 14 to 18) — check ALL that apply.</div>
+<li data-component="answer" id="__survey-Q3_opt_a" data-correct=""><div class="para" id="p-30">Less than a day (museum type)</div></li>
 <li data-component="feedback" id="__survey-Q3_opt_a">
-<li data-component="answer" id="__survey-Q3_opt_b" data-correct=""><div class="para" id="p-26">More than a day but less than 2 months outside of school (camps)</div></li>
+<li data-component="answer" id="__survey-Q3_opt_b" data-correct=""><div class="para" id="p-31">More than a day but less than 2 months outside of school (camps)</div></li>
 <li data-component="feedback" id="__survey-Q3_opt_b">
-<li data-component="answer" id="__survey-Q3_opt_c" data-correct=""><div class="para" id="p-27">More than a day but less than 2 months inside of school (programming unit)</div></li>
+<li data-component="answer" id="__survey-Q3_opt_c" data-correct=""><div class="para" id="p-32">More than a day but less than 2 months inside of school (programming unit)</div></li>
 <li data-component="feedback" id="__survey-Q3_opt_c">
-<li data-component="answer" id="__survey-Q3_opt_d" data-correct=""><div class="para" id="p-28">More than a day but less than 2 months outside of school (learning on your own)</div></li>
+<li data-component="answer" id="__survey-Q3_opt_d" data-correct=""><div class="para" id="p-33">More than a day but less than 2 months outside of school (learning on your own)</div></li>
 <li data-component="feedback" id="__survey-Q3_opt_d">
-<li data-component="answer" id="__survey-Q3_opt_e" data-correct=""><div class="para" id="p-29">More than 2 months outside of school (after school program)</div></li>
+<li data-component="answer" id="__survey-Q3_opt_e" data-correct=""><div class="para" id="p-34">More than 2 months outside of school (after school program)</div></li>
 <li data-component="feedback" id="__survey-Q3_opt_e">
-<li data-component="answer" id="__survey-Q3_opt_f" data-correct=""><div class="para" id="p-30">More than 2 months inside of school (computing course)</div></li>
+<li data-component="answer" id="__survey-Q3_opt_f" data-correct=""><div class="para" id="p-35">More than 2 months inside of school (computing course)</div></li>
 <li data-component="feedback" id="__survey-Q3_opt_f">
-<li data-component="answer" id="__survey-Q3_opt_g" data-correct=""><div class="para" id="p-31">More than 2 months outside of school (learning on your own)</div></li>
+<li data-component="answer" id="__survey-Q3_opt_g" data-correct=""><div class="para" id="p-36">More than 2 months outside of school (learning on your own)</div></li>
 <li data-component="feedback" id="__survey-Q3_opt_g">
 </ul></div></div></article><article class="exercise exercise-like" id="survey-Q4"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
 <div class="ptx-runestone-container"><div class="runestone"><ul data-component="multiplechoice" id="__survey-Q4" data-multipleanswers="true">
-<div class="para" id="p-32">Q4: Please indicate which, if any, courses you have taken here at UB that involved programming — check ALL that apply.</div>
-<li data-component="answer" id="__survey-Q4_opt_a" data-correct=""><div class="para" id="p-33">CSE 111</div></li>
+<div class="para" id="p-37">Q4: Please indicate which, if any, courses you have taken here at UB that involved programming — check ALL that apply.</div>
+<li data-component="answer" id="__survey-Q4_opt_a" data-correct=""><div class="para" id="p-38">CSE 111</div></li>
 <li data-component="feedback" id="__survey-Q4_opt_a">
-<li data-component="answer" id="__survey-Q4_opt_b" data-correct=""><div class="para" id="p-34">CSE 113</div></li>
+<li data-component="answer" id="__survey-Q4_opt_b" data-correct=""><div class="para" id="p-39">CSE 113</div></li>
 <li data-component="feedback" id="__survey-Q4_opt_b">
-<li data-component="answer" id="__survey-Q4_opt_c" data-correct=""><div class="para" id="p-35">CSE 115</div></li>
+<li data-component="answer" id="__survey-Q4_opt_c" data-correct=""><div class="para" id="p-40">CSE 115</div></li>
 <li data-component="feedback" id="__survey-Q4_opt_c">
-<li data-component="answer" id="__survey-Q4_opt_d" data-correct=""><div class="para" id="p-36">CSE 116</div></li>
+<li data-component="answer" id="__survey-Q4_opt_d" data-correct=""><div class="para" id="p-41">CSE 116</div></li>
 <li data-component="feedback" id="__survey-Q4_opt_d">
-<li data-component="answer" id="__survey-Q4_opt_e" data-correct=""><div class="para" id="p-37">CSE 2xx course (any)</div></li>
+<li data-component="answer" id="__survey-Q4_opt_e" data-correct=""><div class="para" id="p-42">CSE 2xx course (any)</div></li>
 <li data-component="feedback" id="__survey-Q4_opt_e">
-<li data-component="answer" id="__survey-Q4_opt_f" data-correct=""><div class="para" id="p-38">None of the above</div></li>
+<li data-component="answer" id="__survey-Q4_opt_f" data-correct=""><div class="para" id="p-43">None of the above</div></li>
 <li data-component="feedback" id="__survey-Q4_opt_f">
 </ul></div></div></article><article class="exercise exercise-like" id="survey-Q5"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
 <div class="ptx-runestone-container"><div class="runestone"><ul data-component="multiplechoice" id="__survey-Q5" data-multipleanswers="true">
-<div class="para" id="p-39">Q5: Based on your previous CS experience, how much do you agree or disagree with the following statement? [ONLY USED FOR STUDENTS IN CSE 115 &amp; 116]</div> <div class="para" id="p-40"><em class="emphasis">I am better at computer science than most of the other students in my course.</em></div>
-<li data-component="answer" id="__survey-Q5_opt_a" data-correct=""><div class="para" id="p-41">1 - Completely Disagree</div></li>
+<div class="para" id="p-44">Q5: Based on your previous CS experience, how much do you agree or disagree with the following statement? [ONLY USED FOR STUDENTS IN CSE 115 &amp; 116]</div> <div class="para" id="p-45"><em class="emphasis">I am better at computer science than most of the other students in my course.</em></div>
+<li data-component="answer" id="__survey-Q5_opt_a" data-correct=""><div class="para" id="p-46">1 - Completely Disagree</div></li>
 <li data-component="feedback" id="__survey-Q5_opt_a">
-<li data-component="answer" id="__survey-Q5_opt_b" data-correct=""><div class="para" id="p-42">2 - Mostly Disagree</div></li>
+<li data-component="answer" id="__survey-Q5_opt_b" data-correct=""><div class="para" id="p-47">2 - Mostly Disagree</div></li>
 <li data-component="feedback" id="__survey-Q5_opt_b">
-<li data-component="answer" id="__survey-Q5_opt_c" data-correct=""><div class="para" id="p-43">3 - Slightly Disagree</div></li>
+<li data-component="answer" id="__survey-Q5_opt_c" data-correct=""><div class="para" id="p-48">3 - Slightly Disagree</div></li>
 <li data-component="feedback" id="__survey-Q5_opt_c">
-<li data-component="answer" id="__survey-Q5_opt_d" data-correct=""><div class="para" id="p-44">4 - Slightly Agree</div></li>
+<li data-component="answer" id="__survey-Q5_opt_d" data-correct=""><div class="para" id="p-49">4 - Slightly Agree</div></li>
 <li data-component="feedback" id="__survey-Q5_opt_d">
-<li data-component="answer" id="__survey-Q5_opt_e" data-correct=""><div class="para" id="p-45">5 - Mostly Agree</div></li>
+<li data-component="answer" id="__survey-Q5_opt_e" data-correct=""><div class="para" id="p-50">5 - Mostly Agree</div></li>
 <li data-component="feedback" id="__survey-Q5_opt_e">
-<li data-component="answer" id="__survey-Q5_opt_f" data-correct=""><div class="para" id="p-46">6 - Completely Agree</div></li>
+<li data-component="answer" id="__survey-Q5_opt_f" data-correct=""><div class="para" id="p-51">6 - Completely Agree</div></li>
 <li data-component="feedback" id="__survey-Q5_opt_f">
-<li data-component="answer" id="__survey-Q5_opt_g" data-correct=""><div class="para" id="p-47">Not a student of CSE 115 or 116.</div></li>
+<li data-component="answer" id="__survey-Q5_opt_g" data-correct=""><div class="para" id="p-52">Not a student of CSE 115 or 116.</div></li>
 <li data-component="feedback" id="__survey-Q5_opt_g">
 </ul></div></div></article><article class="exercise exercise-like" id="survey-Q6"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
 <div class="ptx-runestone-container"><div class="runestone"><ul data-component="multiplechoice" id="__survey-Q6" data-multipleanswers="true">
-<div class="para" id="p-48">Q6: Based on your previous CS experience, how much do you agree or disagree with the following statement? [ONLY USED FOR STUDENTS IN CSE 115 &amp; 116]</div> <div class="para" id="p-49"><em class="emphasis">I am very good at computer science.</em></div>
-<li data-component="answer" id="__survey-Q6_opt_a" data-correct=""><div class="para" id="p-50">1 - Completely Disagree</div></li>
+<div class="para" id="p-53">Q6: Based on your previous CS experience, how much do you agree or disagree with the following statement? [ONLY USED FOR STUDENTS IN CSE 115 &amp; 116]</div> <div class="para" id="p-54"><em class="emphasis">I am very good at computer science.</em></div>
+<li data-component="answer" id="__survey-Q6_opt_a" data-correct=""><div class="para" id="p-55">1 - Completely Disagree</div></li>
 <li data-component="feedback" id="__survey-Q6_opt_a">
-<li data-component="answer" id="__survey-Q6_opt_b" data-correct=""><div class="para" id="p-51">2 - Mostly Disagree</div></li>
+<li data-component="answer" id="__survey-Q6_opt_b" data-correct=""><div class="para" id="p-56">2 - Mostly Disagree</div></li>
 <li data-component="feedback" id="__survey-Q6_opt_b">
-<li data-component="answer" id="__survey-Q6_opt_c" data-correct=""><div class="para" id="p-52">3 - Slightly Disagree</div></li>
+<li data-component="answer" id="__survey-Q6_opt_c" data-correct=""><div class="para" id="p-57">3 - Slightly Disagree</div></li>
 <li data-component="feedback" id="__survey-Q6_opt_c">
-<li data-component="answer" id="__survey-Q6_opt_d" data-correct=""><div class="para" id="p-53">4 - Slightly Agree</div></li>
+<li data-component="answer" id="__survey-Q6_opt_d" data-correct=""><div class="para" id="p-58">4 - Slightly Agree</div></li>
 <li data-component="feedback" id="__survey-Q6_opt_d">
-<li data-component="answer" id="__survey-Q6_opt_e" data-correct=""><div class="para" id="p-54">5 - Mostly Agree</div></li>
+<li data-component="answer" id="__survey-Q6_opt_e" data-correct=""><div class="para" id="p-59">5 - Mostly Agree</div></li>
 <li data-component="feedback" id="__survey-Q6_opt_e">
-<li data-component="answer" id="__survey-Q6_opt_f" data-correct=""><div class="para" id="p-55">6 - Completely Agree</div></li>
+<li data-component="answer" id="__survey-Q6_opt_f" data-correct=""><div class="para" id="p-60">6 - Completely Agree</div></li>
 <li data-component="feedback" id="__survey-Q6_opt_f">
-<li data-component="answer" id="__survey-Q6_opt_g" data-correct=""><div class="para" id="p-56">Not a student of CSE 115 or 116.</div></li>
+<li data-component="answer" id="__survey-Q6_opt_g" data-correct=""><div class="para" id="p-61">Not a student of CSE 115 or 116.</div></li>
 <li data-component="feedback" id="__survey-Q6_opt_g">
 </ul></div></div></article><article class="exercise exercise-like" id="survey-Q7"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
 <div class="ptx-runestone-container"><div class="runestone"><ul data-component="multiplechoice" id="__survey-Q7" data-multipleanswers="true">
-<div class="para" id="p-57">Q7: Based on your previous CS experience, how much do you agree or disagree with the following statement? [ONLY USED FOR STUDENTS IN CSE 115 &amp; 116]</div> <div class="para" id="p-58"><em class="emphasis">I can figure out how to solve the most difficult problems in my computer science class if I try.</em></div>
-<li data-component="answer" id="__survey-Q7_opt_a" data-correct=""><div class="para" id="p-59">1 - Completely Disagree</div></li>
+<div class="para" id="p-62">Q7: Based on your previous CS experience, how much do you agree or disagree with the following statement? [ONLY USED FOR STUDENTS IN CSE 115 &amp; 116]</div> <div class="para" id="p-63"><em class="emphasis">I can figure out how to solve the most difficult problems in my computer science class if I try.</em></div>
+<li data-component="answer" id="__survey-Q7_opt_a" data-correct=""><div class="para" id="p-64">1 - Completely Disagree</div></li>
 <li data-component="feedback" id="__survey-Q7_opt_a">
-<li data-component="answer" id="__survey-Q7_opt_b" data-correct=""><div class="para" id="p-60">2 - Mostly Disagree</div></li>
+<li data-component="answer" id="__survey-Q7_opt_b" data-correct=""><div class="para" id="p-65">2 - Mostly Disagree</div></li>
 <li data-component="feedback" id="__survey-Q7_opt_b">
-<li data-component="answer" id="__survey-Q7_opt_c" data-correct=""><div class="para" id="p-61">3 - Slightly Disagree</div></li>
+<li data-component="answer" id="__survey-Q7_opt_c" data-correct=""><div class="para" id="p-66">3 - Slightly Disagree</div></li>
 <li data-component="feedback" id="__survey-Q7_opt_c">
-<li data-component="answer" id="__survey-Q7_opt_d" data-correct=""><div class="para" id="p-62">4 - Slightly Agree</div></li>
+<li data-component="answer" id="__survey-Q7_opt_d" data-correct=""><div class="para" id="p-67">4 - Slightly Agree</div></li>
 <li data-component="feedback" id="__survey-Q7_opt_d">
-<li data-component="answer" id="__survey-Q7_opt_e" data-correct=""><div class="para" id="p-63">5 - Mostly Agree</div></li>
+<li data-component="answer" id="__survey-Q7_opt_e" data-correct=""><div class="para" id="p-68">5 - Mostly Agree</div></li>
 <li data-component="feedback" id="__survey-Q7_opt_e">
-<li data-component="answer" id="__survey-Q7_opt_f" data-correct=""><div class="para" id="p-64">6 - Completely Agree</div></li>
+<li data-component="answer" id="__survey-Q7_opt_f" data-correct=""><div class="para" id="p-69">6 - Completely Agree</div></li>
 <li data-component="feedback" id="__survey-Q7_opt_f">
-<li data-component="answer" id="__survey-Q7_opt_g" data-correct=""><div class="para" id="p-65">Not a student of CSE 115 or 116.</div></li>
+<li data-component="answer" id="__survey-Q7_opt_g" data-correct=""><div class="para" id="p-70">Not a student of CSE 115 or 116.</div></li>
 <li data-component="feedback" id="__survey-Q7_opt_g">
 </ul></div></div></article></section><div id="scprogresscontainer">You have attempted <span id="scprogresstotal"></span> of <span id="scprogressposs"></span> activities on this page.<div id="subchapterprogress" aria-label="Page progress"></div>
 </div></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="consent-form.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon">&gt;</span></span>
+<a class="previous-button button" href="consent-form.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="chapter-2.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div class="ptx-page-footer">
