@@ -2,7 +2,7 @@
     <chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
         <title>Write Conditional</title>
         
-        <xi:include href='./subgoal-page.ptx' />
+        <xi:include href='./conditional-subgoals.ptx' />
         <xi:include href='./conditional-wc-p1.ptx' />
         
     </chapter>
