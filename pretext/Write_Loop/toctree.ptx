@@ -2,5 +2,6 @@
     <chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
         <title>Write Loop</title>
         
+        <xi:include href='./subgoal-page.ptx' />
         <xi:include href='./loop-wrl-p1.ptx' />
     </chapter>

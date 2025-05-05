@@ -13,7 +13,7 @@
         <exercise xml:id="Consent-FormQ1">
             <statement>
                 <p>
-                    Q1: Have you been given a copy of the consent document for this research?
+                    Q1: Have you been given a copy of the consent document for this research? (There is no need to press the “Check Me” button. Your answers are recorded with just the selection.)
                 </p>
             </statement>
 
@@ -48,7 +48,7 @@
         <exercise xml:id="Consent-FormQ2">
             <statement>
                 <p>
-                    Q1: Do you consent to participating in the research as described to you in the consent document?
+                    Q2: Do you consent to participating in the research as described to you in the consent document? (There is no need to press the “Check Me” button. Your answers are recorded with just the selection.)
                 </p>
             </statement>
 
